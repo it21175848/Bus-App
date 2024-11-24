@@ -8,8 +8,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to the Bus Tracking App</Text>
-      <Button title="Track Bus" onPress={() => router.push('/busTracker')} />
-      <Button title="Settings" onPress={() => router.push('/settings')} />
+      <Button title="Track Bus" onPress={() => router.push('/trip')} />
     </View>
   );
 };
